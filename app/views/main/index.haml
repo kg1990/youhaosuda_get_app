@@ -1,0 +1,14 @@
+%form{:action => "/", :method => "get"}
+  %input{:type => "input", :name => "path"}
+  %input{:type => "submit"}
+%span CODE
+%br
+%span=@req_code
+%br
+%span BODY
+%br
+%span=@req_body
+%br
+%span HEADER
+%br
+%span=@req_header
